@@ -1,12 +1,59 @@
+body {
+  margin-top: 100px;
+  background: black;
+}
+.container {
+  background-size: cover;
+  background-image: url("./../img/background-container.jpeg")
 
-/* 
+}
+ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+ul li {
+  list-style: none;
+  padding: 5px;
+  font-size: 25px;
+  color: #800020; 
+  font-family: 'lugrasimo',sans-serif;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+h1 {
+  text-align: center;
+  font-family: 'lugrasimo',sans-serif;
+}
+input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'lugrasimo',sans-serif;
+  font-size: 25px;
+  color: #800020; 
+}
+::placeholder {
+  color: #800020;
+  font-size: 25px;
+}
+.trash {
+  float: right;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.task {
+  font-family: 'lugrasimo', sans-serif;
+  font-size: 30px;
+  padding: 10px 20px;
+  background-color: #800020; 
+  color: white; 
+  border-radius: 10px; 
+  display: inline-block; 
+  margin-top: 200px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}
 
-*/
+.task:hover {
+  background-color: #6b0017; /* Cambia el color de fondo al pasar el mouse */
+}
